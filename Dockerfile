@@ -5,6 +5,7 @@ COPY . /usr/share/nginx/html
 
 #start nginx with webapp 
 CMD ["nginx", "-g", "daemon off;"]
+<<<<<<< Updated upstream
 
 # #Use a distroless base image for the final stage
 # FROM gcr.io/distroless/static-debian11
@@ -16,3 +17,5 @@ CMD ["nginx", "-g", "daemon off;"]
 
 # # Run Nginx in the foreground (since there's no shell in distroless)
 # CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
+=======
+>>>>>>> Stashed changes
