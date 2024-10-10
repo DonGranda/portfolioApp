@@ -1,4 +1,54 @@
-[
+[ 
+    {
+        "name": "Bash",
+        "icon": "https://img.icons8.com/fluency/48/000000/bash.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/?size=48&id=cdYUlRaag9G9&format=png&color=000000"
+    },
+    {
+        "name": "Kubernetes",
+        "icon": "https://img.icons8.com/?size=48&id=cvzmaEA4kC0o&format=png&color=000000"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "Terraform",
+        "icon": "https://img.icons8.com/ios-filled/48/1169ae/terraform.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "Jenkins",
+        "icon": "https://img.icons8.com/?size=48&id=39292&format=png&color=000000"
+    },
+
+    {
+        "name": "Grafana",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAMKADAAQAAAABAAAAMAAAAADbN2wMAAAJ/UlEQVRoBbVZDXBUVxW+5763v/nZpC01RGgjhPwttrRFKtAWsO3QVhnG0iCFdAyWHx2KjRXroEWDWAeVdrAdUFtoA+HHJqXqMKXDMAoUcayMAwU2fw0JDMpfhJAlu/nbfdfvbfI2b9++t9mNyc3c3HvOPd+559x7zn33vSU2yqW9fEqW1Nu7TeFMIQd927Pdd2Mkp6SRVGbUda3Um2O3i0OYZPLAWLMixGPZe+ovGGWHS/PhAofCifI8p8Om7NcZr0LyOdEBUepNHwqf7PioOXAr5KpkRFNNDCnx28R6E/6wWFigkS+BRYW5IS61MGIOM+2CiS6PzZFLVadumo2nwhtxBy6WjnN57J71MPIHQxhyAZOfEIIds0vh/a7qxlbBGAUWFz8aZjQfzheDdPeSsmDMrvrLVrpGzIHrS+4ZZ2OhCsFoGWPCYzWhBR8wdpwJZsP4gzEyQqzz7Kn/eQxPR8i6vmk3UFY8VmF8RlgRhZyzbEUQ/thlrNyn7Y7A3zP7ZLss7D8lCq0CDyGDdUy9EGAPmcGI6HHwU3egc7F3ikLKlpCg6TAKevBf3WPVQPRV+rY+tx/Kg6Bz1LHRKApjeYn0Wu5AiCtTsdYzEoExljlQhxAb/jDWKZgIbekAV7DgQP+/BTvVBE1HoewsEW/BPrYLpoS5YHasbi4jPhnTzETSz8Rcag7EFPAz1AfinbW+KzEDA4SlA4zE1UismKGG5FEHIuotrvB3MveeaRhSHAI3F38xG3n0LGL1RYRjgYYhRp932MVHePg9TLW+To2vtZZr7C8rLBRCSmpyTVl/S1uF4K9k7TnTHstPjhKlpVKH4+xShO9GIG7XUDim3sva7Vuk0Vpr6YCaqv4lJW16JRrIrIWiEHJ9eeYeX5XZeKq8znJvjtLH9iKEZmtYzqg0Y7fvfY1WW8urBAxSU2C/Xjhhn9iKkTJenSe9ynflYi+bCyNqtXnDTLzWijuWRqutpQMRIYm2RyRUqUSVaGvmrrp3I5gR/Oet9fV6erzPCi4+UOcnzu7KDrvL9VNYhpAm5C8vPoz4m63RJu2FrrDszak+HTAZi2O1fasww8FoMvIrUyIlHBLshsfFm2hrfIJqYPVm62fuo6CnodZ5quq82tiQDtx4vniyRHSShDA9sTinsvS363ZrCq3ajue9TyAqX8SEj6I1Hpdh5NwJYKu7em07zBaja1nhF3oZP41bQLrgfJrnbZ8qP0QIqQKS1EVcSEw131DBbU27WfcHVZFV8a8ouMO/sng/ycpHJIsnmAzjDXpASySzL6Nucbv6znUsL37OqM+1rbEV4xsiWFKwGP0lcQ5AhsvK1wEiJoEwVC6LHVTLwgO64pq2FwpzmSwdB+5rRqwlLbPPkY3t9K8qrvKVeu16pRk5XW+QxC6TTUTfM4Z0ACs2x2oyKPqjfgJ9Xz0tnMT3A1ugx5MkrqEeQT0I3Y1ohX482ufsm+NzlBpROTsaulR5vhuLuY1xKtHmig5qDGMLjx9AzBrZKutS2ubGM/ED/Zw7sp1rIXT/YJJRHW6yazKy6g9SJcMtor+0f7/4bkkRqyG3GpyYFQc9v7Pj6ia0Ff3SjCkS30lMeUmjB/VrHF3bXpGXJctOqyfqBxmbGhboxKPdtpcLM5wK/RsM9bKn3kgOB4R9Xs4m65Mq8FLJfQoXf4bT4yOYwX8iLGhu1mv1hzTWrTVFp9J7Qg/Sm809liHU/crkiZLTuTe6pYb4x840aQqNrZPzp4DLjGBldjU9TXomkfEqPu31upM2OTwbIdJmmJMkWfkVYiC62IrEfshuD0VoUwdurS16uk+ETsNInBrQbl7bjIZHaa5M1zA4OX5Nlcl9C3JubGqB8d/RsIMtTelcW/SIpt/zywaEIfIBJc6BjnWFZUjOWiSXG5VZVcZFNI41xdFWYmM1XJ/M9kX5SXQyXm3Yh+P2lIbXWmYT3zCDxySx/2dF0yUmtuNciHMsDkwi5k4SM64+ptS8J9aV/ZOG8zFjyRCcaqBgil4U8fKwntb6UUNbK/OckqTsxMPJPrh1EDMPH+wM3aUpMba4s5yP4CQmicokFsOowK6cMJl3kqiJZEeMdNSBMQ77KiFRviGB4h5e0XFZ4F3ZvAg7HRiQswfdxTEraY6I5XKudEbnGTw8HG11Xles5EAOqJ4h2SoQeyzZignu7droNd2F9JcbPoa+f6m6GA//2DjpULQi8zQzO8aMdcblXf8O1OGtVWaHTby23gGJkeLoW2pmDOIVT9fwCujrQn06sLlwg/4YNMPoeZJEeSa2KMx+Pc6ByFmqgtVdCF4p+C26y1U6mQKj2pVeVpC5pum/ZvKdbxbNJaEgIVkmJvoLDofX3aT8jTk8oe4+/1RF8Flpqxs3GLHBNybtQiwsMfKBP5R2T+5TNOdISBuL5gAtZOG07zZh1fBlTRJ+kySKS2iESbbsEps1ZcY2fXXDQW7j9+Io3I0VfQjfHD4MyrwjGL4VUDj9SXClx4gRv5/ggQ3zzebHJe/xYP2lH+kx0R3QMzu3eHO41LcOXybKwXfrx8z6+HJQ7lrZtMNsTONd2+JNd1LffXYbyxBCCbSL4InclZfivvkEflfwCyKBe5RludXNwuNvW9nSoUqYOqBB29/Ny7KF5XmErcY7wTxE9p3aWExLrFcI8Uzasubk36FjFPQTwXcmzmAKPwLK+MITI40fSZ5LX968S2UmdECPClZNUi9uMV8E9OPo9yFuX0grb3rLwE+K7KnK9+Kr9F8hbL5Iei1CfM+9tDkSukk7oOK7qvPfg5EL9bri++J9l4NX0MKm/8SPmXO6d+bPU4ghBCnbXKKfi08s+LrH1rvLmqMLmZIDN2omeFwh6ROcWYWJJlKvEDCmGp8Qd7gaz/2DdPd/PS5QnX8/LoxqUi6wMgQnXQ2X+I6eUOgzz5KWz/R4tW+FM8pF6e59BRNESPkUyPQoM0EHBlzHB6lPcCA0CoXwCyUuK4yNQ50JHcUJoOpQndPjnkZzrd8jUnZAHMjP7O5i16E85iI4hCHDGW7D03iGc/655kTglI3oDuGFWr14jGYhdomz8JOO+a0JjVdNSN0QYuMid5xRcgAhdyxM4YWur56/kswUKTsgyQw/HYxe4Uxsdj2ZnPGqFSk7oMgCr5IJU6cPei+iTlAnSLkQT+mTfsoOYIvP4OizKOJjHHkV9lnNJ3sO5xXhsjYDnyVLcAnDqSPS8QxBEdPxa43Ved9i/0pzvYVyU3bCpTRFgNl9dKIPP/aVwJ5eGNYAAw9zEnvsj7T+0wqj8buOTJwD2Q9Bx72cYHEqnLNafqPJJtMOywFx7K5sZndzFmzooDn4YSPF0nt8wpdg7E7AiqJQwc7as10PkNeHRUm+DMuB5NVbS/pqvPZJdwcX4WeUMlwRvEwojzmmX0gpfFTt/wNSQEQ8JE8ILgAAAABJRU5ErkJggg=="        
+    },
+    {
+        "name": "AgroCD",
+        "icon": "data:image/png;base64,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"
+    },
+    {
+        "name": "Prometheus",
+        "icon": "data:image/png;base64,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"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+  
     {
         "name": "ReactJS",
         "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
@@ -11,37 +61,22 @@
         "name": "NodeJS",
         "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
     },
-    {
-        "name": "Redux",
-        "icon": "https://img.icons8.com/color/48/000000/redux.png"
-    },
+ 
     {
         "name": "Firebase",
         "icon": "https://img.icons8.com/color/48/000000/firebase.png"
     },
     {
-        "name": "Android",
-        "icon": "https://img.icons8.com/fluency/48/000000/android-os.png"
+        "name": "DigitalOcean",
+        "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
     },
     {
-        "name": "MaterialUI",
-        "icon": "https://img.icons8.com/color/48/000000/material-ui.png"
-    },
-    {
-        "name": "ChakraUI",
-        "icon": "https://img.icons8.com/color/48/000000/chakra-ui.png"
-    },
-    {
-        "name": "TailwindCSS",
-        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png"
+        "name": "C Language",
+        "icon": "https://img.icons8.com/?size=48&id=40670&format=png&color=000000"
     },
     {
         "name": "Bootstrap",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
-    },
-    {
-        "name": "Sass",
-        "icon": "https://img.icons8.com/color/48/000000/sass.png"
     },
     {
         "name": "HTML5",
@@ -60,20 +95,12 @@
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
-        "name": "Kotlin",
-        "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
+        "name": "CheckMk",
+        "icon": "data:image/png;base64,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"
     },
     {
-        "name": "PHP",
-        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
-    {
-        "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+        "name": "Linux",
+        "icon": "https://img.icons8.com/color/48/000000/linux.png"
     },
     {
         "name": "MongoDB",
@@ -88,35 +115,18 @@
         "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
     },
     {
-        "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
-    },
-    {
-        "name": "Heroku",
-        "icon": "https://img.icons8.com/color/48/000000/heroku.png"
-    },
-    {
-        "name": "Netlify",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
-    },
-    {
-        "name": "DigitalOcean",
-        "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
-    },
-    {
-        "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    },
-    {
-        "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },
-    {
-        "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
         "name": "WordPress",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    }    
+    },
+    {
+        "name": "Trivy",
+        "icon": "https://img.icons8.com/color/48/000000/trivy.png"
+    },
+    {
+        "name": "Freshservice",
+        "icon": "#"
+    }  
+
 ]
+
+
