@@ -1,18 +1,20 @@
-name: Deploy Build and Deploy 
+name: Deploy to Dokker and ECR 
 on: 
-  push 
+  push:
+    tags:
+      - '[0-9]+.[0-9]+' # Matches tags like 1.0.0, 2.1.3, etc.
 
 jobs:
-  build-and-push:
+  build-and-push-to-Docker-Repo:
     runs-on: ubuntu-latest
     environment: DOCKER_ENV
 
     steps:
       # Step 1: Checkout the repository (this ensures the latest code is available)
       - name: Checkout code
-        uses: actions/checkout@v3  # This action checks out your repository so that the workflow can access it
+        uses: actions/checkout@v3  
 
-      # Step 2: Set up Docker Buildx
+      # Step 2: Set up Docker Buildx so docker can build images for diffrent plafform 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
